@@ -26,9 +26,9 @@ spec:
       - name: web
         image: prudhvi0906/web:v1
         imagePullPolicy: Always
-        envFrom:
-        - configMapRef:
-            name: web     
+        # envFrom:
+        # - configMapRef:
+        #     name: web     
 
 ---
 apiVersion: v1
